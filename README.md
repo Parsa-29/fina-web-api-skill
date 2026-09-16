@@ -10,7 +10,7 @@ every JSON example, and every coded value — in English, with the Georgian orig
 alongside so any translation can be checked against the source.
 
 ```bash
-npx skills add https://github.com/OWNER/fina-web-api-skill --skill fina-web-api
+npx skills add https://github.com/Parsa-29/fina-web-api-skill --skill fina-web-api
 ```
 
 Add `--global` to install it for every project.
