@@ -1,0 +1,188 @@
+{
+ "_comment": "Which reference file each method is documented in. Order within a group follows the PDF, which already groups related methods together. Indexes refer to document order.",
+ "groups": [
+  {
+   "file": "contragents.md",
+   "title": "Customers, vendors and their attributes",
+   "range": [
+    1,
+    14
+   ],
+   "extra": [
+    "saveCustomer",
+    "saveVendor"
+   ]
+  },
+  {
+   "file": "catalog.md",
+   "title": "Products, services, fixed assets and their catalogues",
+   "range": [
+    15,
+    39
+   ],
+   "extra": [
+    "saveProduct",
+    "saveProvidedService"
+   ]
+  },
+  {
+   "file": "pricing.md",
+   "title": "Prices, price types, discounts and units",
+   "range": [
+    40,
+    44
+   ],
+   "extra": [
+    "getPriceTypes",
+    "getDiscountTypes",
+    "getUnits"
+   ]
+  },
+  {
+   "file": "stock.md",
+   "title": "Stock balances and cost",
+   "range": [
+    45,
+    57
+   ],
+   "extra": []
+  },
+  {
+   "file": "directories.md",
+   "title": "Stores, users, staff and other directories",
+   "range": [
+    61,
+    73
+   ],
+   "extra": [
+    "saveStaff"
+   ]
+  },
+  {
+   "file": "loyalty-and-cards.md",
+   "title": "Gift cards, bonus cards and loyalty",
+   "range": [
+    74,
+    78
+   ],
+   "extra": [
+    "getLoyaltyCustomers",
+    "getLoyaltyCustomer",
+    "getLoyaltyCustomerPrograms",
+    "getLoyaltyCustomerGroups",
+    "getLoyaltyCustomerBalances",
+    "getLoyaltyCustomerBalance",
+    "getLoyaltyBonusHistory",
+    "saveLoyaltyCustomer",
+    "saveLoyaltyGroup",
+    "saveLoyaltyBonusPoint"
+   ]
+  },
+  {
+   "file": "accounting.md",
+   "title": "Bookkeeping accounts and entries",
+   "range": [
+    79,
+    80
+   ],
+   "extra": [
+    "getEntriesJournal"
+   ]
+  },
+  {
+   "file": "documents-read-trade.md",
+   "title": "Reading documents — sales, orders and returns",
+   "methods": [
+    "getDocTypes",
+    "getDocAdditionalFields",
+    "getDocDiscountCard",
+    "getDocCustomerOrder",
+    "getDocProductOut",
+    "getDocProductOutSingle",
+    "getDocInventoryOut",
+    "getDocCustomerReturn",
+    "getDocCustomerInventoryReturn"
+   ]
+  },
+  {
+   "file": "documents-read-ops.md",
+   "title": "Reading documents — transfers, services and production",
+   "methods": [
+    "getDocProductMove",
+    "getDocInventoryMove",
+    "getDocProvidedService",
+    "getDocReceivedService",
+    "getDocProduction",
+    "getDocAutoService",
+    "getDocAdvProduction"
+   ]
+  },
+  {
+   "file": "documents-write-trade.md",
+   "title": "Writing documents — sales, purchases, transfers and orders",
+   "methods": [
+    "saveDocCustomerOrder",
+    "saveDocProductOut",
+    "saveDocProductIn",
+    "saveDocProductMove",
+    "saveDocProvidedService",
+    "saveDocReceivedService",
+    "saveDocCustomerReturn",
+    "saveDocProductCancel",
+    "saveDocCafeOrder",
+    "updateRsStatus"
+   ]
+  },
+  {
+   "file": "documents-write-money.md",
+   "title": "Writing documents — money, advances and card payments",
+   "methods": [
+    "saveDocCustomerMoneyIn",
+    "saveDocCustomerAdvanceIn",
+    "saveDocCustomerMoneyReturn",
+    "saveDocBonusPayment",
+    "saveDocGiftPayment"
+   ]
+  },
+  {
+   "file": "documents-write-cards.md",
+   "title": "Writing documents — issuing cards and points",
+   "methods": [
+    "saveDocDiscountCard",
+    "saveDocBonusCard",
+    "saveDocGiftCard",
+    "saveDocBonusOperation"
+   ]
+  },
+  {
+   "file": "documents-write-production.md",
+   "title": "Writing documents — production",
+   "methods": [
+    "saveDocProduction",
+    "saveDocAdvProduction"
+   ]
+  },
+  {
+   "file": "reporting.md",
+   "title": "Journals and reports",
+   "range": [
+    133,
+    149
+   ],
+   "extra": [],
+   "exclude": [
+    "getEntriesJournal"
+   ]
+  },
+  {
+   "file": "conventions.md",
+   "title": "Authentication and shared conventions",
+   "range": [
+    0,
+    0
+   ],
+   "extra": [],
+   "preamble": "assets/conventions-preamble.md"
+  }
+ ]
+}
